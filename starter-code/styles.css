@@ -76,7 +76,15 @@ form input {
     background-color: #2c344b;
     color: #c2cbe5;
     border: none;
-    
+    font-weight: bold;
+    font-family: 'Chivo', sans-serif;
+    line-height: 28px;
+}
+
+form input:focus {
+  outline: none;
+  border: none;
+  color: #ffffff;
 }
 
 form button {
@@ -92,7 +100,22 @@ form button {
     position: absolute;
     left: 260px;
     margin: 5px 5px 5px 0px;
+    cursor: pointer;
     
+}
+
+form button:hover {
+  background-color: #B3FFE2;
+}
+
+#alert {
+  display: none;
+  font-size: 12px;
+  color: #FB3E3E;
+  line-height: 14px;
+  position: absolute;
+  top: 421px;
+  left: 32px;
 }
 
 .dotty {
