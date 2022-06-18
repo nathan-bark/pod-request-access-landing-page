@@ -11,8 +11,6 @@ body {
 
 header img {
   position: absolute;
-  width: 134.85px;
-  height: 56px;
   left: 165px;
   top: 102px;
 }
@@ -135,10 +133,10 @@ form button:hover {
   margin-right: 27px;
 }
 
-@media screen and (max-width: 900px) and (min-width: 600px) {
+@media screen and (max-width: 900px) and (min-width: 450px) {
   header img {
-    top: 50px;
-    left: 39px;
+    top: 4.88%;
+    left: 5.07%;
   }
 
   main {
@@ -148,26 +146,28 @@ form button:hover {
   }
 
   .image-container {
-    width: 491px;
-    height: 767px;
+    width: 63.93%;
+    height: 119%;
     top: 0;
-    left: 277px;
+    left: 36.06%;
     overflow: hidden;
+    opacity: 0.85;
   }
 
   .image-container img {
     box-sizing: border-box;
-    width: 491px;
-    height: 767px;
-    padding-left: 491px;
+    width: 100%;
+    height: 100%;
+    padding-left: 100%;
     background-image: url("assets/tablet/image-host.jpg");
+    background-size: cover;
   }
 
   .content {
-    width: 635px;
-    height: 509px;
-    left: 39px;
-    top: 258px;
+    width: 82.68%;
+    height: 100%;
+    left: 5.07%;
+    top: 40.31%;
   }
 
   h1 {
@@ -181,7 +181,8 @@ form button:hover {
   }
 
   form button {
-    top: 360px;
+    position: relative;
+    top: 55px;
   }
 
   .dotty {
@@ -193,10 +194,11 @@ form button:hover {
 
   .socials {
     margin-bottom: 153px;
+
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   main {
     position: absolute;
     width: 100%;
@@ -206,8 +208,8 @@ form button:hover {
   }
 
   header img {
-    left: 120px;
-    top: 62px;
+    left: 32%;
+    top: 9.29%;
   }
 
   .image-container {
@@ -227,11 +229,12 @@ form button:hover {
   }
 
   .content {
-    width: 327px;
-    height: 398px;
-    top: 175px;
+    width: 87.2%;
+    height: 59.67%;
+    top: 26.23%;
     background-color: rgba(18, 23, 37, 0);
-    right: 24px;
+    right: 6.4%;
+    left: 6.4%;
   }
 
   h1 {
@@ -251,40 +254,46 @@ form button:hover {
 
   form input {
     margin: 0px;
-    width: 327px;
+    width: 100%;
     height: 46px;
     position: absolute;
-    top: 290px;
+    top: 72.86%;
   }
 
   form button {
-    width: 326px;
+    width: 100%;
     height: 46px;
     left: 0;
-    top: 352px;
+    top: 88.44%;
     margin: 0px;
   }
 
+  .socials{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .spotify {
-    width: 56px;
+    width: 17.12%;
     height: 17px;
-    margin-right: 23px;
+    margin-right: 7.03%;
   }
 
   .apple {
     height: 17px;
-    width: 45px;
-    margin-right: 25px;
+    width: 13.76%;
+    margin-right: 7.64%;
   }
 
   .google {
-    width: 73px;
+    width: 22.32%;
     height: 11px;
-    margin-right: 16px;
+    margin-right: 4.89%;
   }
 
   .pocket {
-    width: 77px;
+    width: 23.54%;
     height: 15px;
   }
 
@@ -293,6 +302,7 @@ form button:hover {
   }
 
   #alert {
-    top: 250px;
-    left: 32px;
+    top: 62.81%;
+    left: 9.78%;
+}
 }
