@@ -22,8 +22,8 @@ A landing page with a introduction and registration form for a challenge on Fron
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/nathan-bark/pod-request-access-landing-page/tree/master/starter-code)
+- Live Site URL: (https://nathan-bark.github.io/starter-code/index.html)
 
 ## My process
 
