@@ -30,7 +30,7 @@ main {
   width: 888px;
   height: 640px;
   left: 387px;
-  
+
 }
 
 .content {
@@ -78,6 +78,7 @@ form input {
     border: none;
     font-weight: bold;
     font-family: 'Chivo', sans-serif;
+    font-size: 14px;
     line-height: 28px;
 }
 
@@ -137,4 +138,64 @@ form button:hover {
   margin-right: 27px;
 }
 
+@media screen and (max-width:900px) and (min-width:600px ) {
+  header img {
+    top: 50px;
+    left: 39px;
+  }
+
+  main {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .image-container {
+    width: 491px;
+    height: 767px;
+    top: 0;
+    left: 277px;
+    overflow: hidden;
+  }
+
+  .image-container img {
+    box-sizing: border-box;
+    width: 491px;
+    height: 767px;
+    padding-left: 491px;
+    background-image: url('assets/tablet/image-host.jpg');
+  }
+
+  .content {
+    width: 635px;
+    height: 509px;
+    left:39px;
+    top: 258px;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    margin: 93px 0px 31px 0;
+  }
+
+  .content p {
+    margin: 0px 190px 40px 0px;
+  }
+
+  form button {
+    top: 360px;
+  }
+
+  .dotty {
+    top: 980px;
+    right: initial;
+    padding-bottom: 0px;
+    padding-left: 30px;
+  }
+  
+  .socials {
+    margin-bottom: 153px;
+  }
+}
 
