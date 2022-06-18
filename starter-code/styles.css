@@ -30,7 +30,6 @@ main {
   width: 888px;
   height: 640px;
   left: 387px;
-
 }
 
 .content {
@@ -66,20 +65,19 @@ h1 span {
   color: #c2cbe5;
 }
 
-
 form input {
-    margin: 0px 296px 64px 0px;
-    width:427px;
-    height: 56px;
-    border-radius: 30px;
-    padding-left: 32px;
-    background-color: #2c344b;
-    color: #c2cbe5;
-    border: none;
-    font-weight: bold;
-    font-family: 'Chivo', sans-serif;
-    font-size: 14px;
-    line-height: 28px;
+  margin: 0px 296px 64px 0px;
+  width: 427px;
+  height: 56px;
+  border-radius: 28px;
+  padding-left: 32px;
+  background-color: #2c344b;
+  color: #c2cbe5;
+  border: none;
+  font-weight: bold;
+  font-family: "Chivo", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
 }
 
 form input:focus {
@@ -89,30 +87,29 @@ form input:focus {
 }
 
 form button {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    background-color: #54e6af;
-    width: 162px;
-    height: 46px;
-    border-radius: 30px;
-    outline: none;
-    border: none;
-    position: absolute;
-    left: 260px;
-    margin: 5px 5px 5px 0px;
-    cursor: pointer;
-    
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  background-color: #54e6af;
+  width: 162px;
+  height: 46px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  position: absolute;
+  left: 260px;
+  margin: 5px 5px 5px 0px;
+  cursor: pointer;
 }
 
 form button:hover {
-  background-color: #B3FFE2;
+  background-color: #b3ffe2;
 }
 
 #alert {
   display: none;
   font-size: 12px;
-  color: #FB3E3E;
+  color: #fb3e3e;
   line-height: 14px;
   position: absolute;
   top: 421px;
@@ -138,7 +135,7 @@ form button:hover {
   margin-right: 27px;
 }
 
-@media screen and (max-width:900px) and (min-width:600px ) {
+@media screen and (max-width: 900px) and (min-width: 600px) {
   header img {
     top: 50px;
     left: 39px;
@@ -163,13 +160,13 @@ form button:hover {
     width: 491px;
     height: 767px;
     padding-left: 491px;
-    background-image: url('assets/tablet/image-host.jpg');
+    background-image: url("assets/tablet/image-host.jpg");
   }
 
   .content {
     width: 635px;
     height: 509px;
-    left:39px;
+    left: 39px;
     top: 258px;
   }
 
@@ -193,9 +190,109 @@ form button:hover {
     padding-bottom: 0px;
     padding-left: 30px;
   }
-  
+
   .socials {
     margin-bottom: 153px;
   }
 }
 
+@media screen and (max-width: 600px) {
+  main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: initial;
+    top: initial;
+  }
+
+  header img {
+    left: 120px;
+    top: 62px;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 100%;
+    left: 0;
+  }
+
+  .image-container img {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding-left: 100%;
+    background-image: url("assets/mobile/image-host.jpg");
+    background-size: cover;
+    opacity: 0.1;
+  }
+
+  .content {
+    width: 327px;
+    height: 398px;
+    top: 175px;
+    background-color: rgba(18, 23, 37, 0);
+    right: 24px;
+  }
+
+  h1 {
+    font-size: 26px;
+    line-height: 38px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .content p {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 16px 0px 30px 0px;
+    color: #c2cbe5;
+    text-align: center;
+  }
+
+  form input {
+    margin: 0px;
+    width: 327px;
+    height: 46px;
+    position: absolute;
+    top: 290px;
+  }
+
+  form button {
+    width: 326px;
+    height: 46px;
+    left: 0;
+    top: 352px;
+    margin: 0px;
+  }
+
+  .spotify {
+    width: 56px;
+    height: 17px;
+    margin-right: 23px;
+  }
+
+  .apple {
+    height: 17px;
+    width: 45px;
+    margin-right: 25px;
+  }
+
+  .google {
+    width: 73px;
+    height: 11px;
+    margin-right: 16px;
+  }
+
+  .pocket {
+    width: 77px;
+    height: 15px;
+  }
+
+  .dotty {
+    display: none;
+  }
+
+  #alert {
+    top: 250px;
+    left: 32px;
+}
