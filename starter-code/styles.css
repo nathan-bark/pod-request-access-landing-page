@@ -194,7 +194,11 @@ form button:hover {
 
   .socials {
     margin-bottom: 153px;
+  }
 
+  #alert {
+    top: 479px;
+    left: 32px;
   }
 }
 
@@ -268,7 +272,7 @@ form button:hover {
     margin: 0px;
   }
 
-  .socials{
+  .socials {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -304,5 +308,5 @@ form button:hover {
   #alert {
     top: 62.81%;
     left: 9.78%;
-}
+  }
 }
